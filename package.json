@@ -1,0 +1,26 @@
+{
+  "name": "stylelint-ensure-custom-property-values-used",
+  "description": "Ensure custom properties values are used in CSS",
+  "author": "Maxime Pietrucci-Blacher <Sunshio>",
+  "version": "0.0.0",
+  "keywords": [
+    "stylelint",
+    "stylelint-plugin",
+    "css",
+    "custom properties",
+    "variables",
+    "css modules"
+  ],
+  "module": "index.ts",
+  "main": "index.js",
+  "type": "module",
+  "engines": {
+    "node": ">=18"
+  },
+  "peerDependencies": {
+    "stylelint": ">=14.0.0"
+  },
+  "scripts": {
+    "test": "bun test"
+  }
+}
